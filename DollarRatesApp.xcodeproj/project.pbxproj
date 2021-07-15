@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EE5A978269F72BC000448A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5A977269F72BC000448A8 /* AppDelegate.swift */; };
+		5EE5A97A269F72BC000448A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5A979269F72BC000448A8 /* SceneDelegate.swift */; };
+		5EE5A97F269F72BC000448A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE5A97D269F72BC000448A8 /* Main.storyboard */; };
+		5EE5A981269F72BF000448A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE5A980269F72BF000448A8 /* Assets.xcassets */; };
+		5EE5A984269F72BF000448A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE5A982269F72BF000448A8 /* LaunchScreen.storyboard */; };
+		5EE5A991269F736A000448A8 /* DollarRatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5A990269F736A000448A8 /* DollarRatesTableViewController.swift */; };
+		5EE5A996269F740D000448A8 /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5A995269F740D000448A8 /* Dollar.swift */; };
+		5EE5A99B269F74BC000448A8 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5A99A269F74BC000448A8 /* DateHelper.swift */; };
+		5EE5A9A0269F764D000448A8 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5A99F269F764D000448A8 /* ServerManager.swift */; };
+		5EE5A9A8269F78FB000448A8 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5A9A7269F78FB000448A8 /* Requests.swift */; };
+		5EE5A9AD269F7E4E000448A8 /* DollarDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5A9AC269F7E4E000448A8 /* DollarDecode.swift */; };
+		5EE5A9B1269F95F2000448A8 /* RatesDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5A9B0269F95F2000448A8 /* RatesDecode.swift */; };
+		D867741A5234E155879E4D12 /* Pods_DollarRatesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6E5472C91ED1E0C1F9337B /* Pods_DollarRatesApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29E4F8CD073A55A4D16688C5 /* Pods-DollarRatesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollarRatesApp.debug.xcconfig"; path = "Target Support Files/Pods-DollarRatesApp/Pods-DollarRatesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3A6E5472C91ED1E0C1F9337B /* Pods_DollarRatesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DollarRatesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE5A974269F72BC000448A8 /* DollarRatesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarRatesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE5A977269F72BC000448A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EE5A979269F72BC000448A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5EE5A97E269F72BC000448A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EE5A980269F72BF000448A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EE5A983269F72BF000448A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EE5A985269F72BF000448A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE5A990269F736A000448A8 /* DollarRatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarRatesTableViewController.swift; sourceTree = "<group>"; };
+		5EE5A995269F740D000448A8 /* Dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
+		5EE5A99A269F74BC000448A8 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		5EE5A99F269F764D000448A8 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		5EE5A9A7269F78FB000448A8 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		5EE5A9AC269F7E4E000448A8 /* DollarDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarDecode.swift; sourceTree = "<group>"; };
+		5EE5A9B0269F95F2000448A8 /* RatesDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesDecode.swift; sourceTree = "<group>"; };
+		DE0B3A7392C2AC40A2F1E458 /* Pods-DollarRatesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollarRatesApp.release.xcconfig"; path = "Target Support Files/Pods-DollarRatesApp/Pods-DollarRatesApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EE5A971269F72BC000448A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D867741A5234E155879E4D12 /* Pods_DollarRatesApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353FA1E1989936D0245EAF3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A6E5472C91ED1E0C1F9337B /* Pods_DollarRatesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EE5A96B269F72BC000448A8 = {
+			isa = PBXGroup;
+			children = (
+				5EE5A976269F72BC000448A8 /* DollarRatesApp */,
+				5EE5A975269F72BC000448A8 /* Products */,
+				7FD2E3E5D579211DD8ED3A9D /* Pods */,
+				353FA1E1989936D0245EAF3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EE5A975269F72BC000448A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5A974269F72BC000448A8 /* DollarRatesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EE5A976269F72BC000448A8 /* DollarRatesApp */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5A99E269F7638000448A8 /* Server */,
+				5EE5A994269F73FA000448A8 /* Model */,
+				5EE5A98F269F7349000448A8 /* Controllers */,
+				5EE5A97D269F72BC000448A8 /* Main.storyboard */,
+				5EE5A999269F7497000448A8 /* Extensions */,
+				5EE5A977269F72BC000448A8 /* AppDelegate.swift */,
+				5EE5A979269F72BC000448A8 /* SceneDelegate.swift */,
+				5EE5A980269F72BF000448A8 /* Assets.xcassets */,
+				5EE5A982269F72BF000448A8 /* LaunchScreen.storyboard */,
+				5EE5A985269F72BF000448A8 /* Info.plist */,
+			);
+			path = DollarRatesApp;
+			sourceTree = "<group>";
+		};
+		5EE5A98F269F7349000448A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5A990269F736A000448A8 /* DollarRatesTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EE5A994269F73FA000448A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5A995269F740D000448A8 /* Dollar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EE5A999269F7497000448A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5A99A269F74BC000448A8 /* DateHelper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5EE5A99E269F7638000448A8 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5A99F269F764D000448A8 /* ServerManager.swift */,
+				5EE5A9AA269F7E20000448A8 /* Requests */,
+				5EE5A9AB269F7E2C000448A8 /* Model API */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		5EE5A9AA269F7E20000448A8 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5A9A7269F78FB000448A8 /* Requests.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		5EE5A9AB269F7E2C000448A8 /* Model API */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5A9AC269F7E4E000448A8 /* DollarDecode.swift */,
+				5EE5A9B0269F95F2000448A8 /* RatesDecode.swift */,
+			);
+			path = "Model API";
+			sourceTree = "<group>";
+		};
+		7FD2E3E5D579211DD8ED3A9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29E4F8CD073A55A4D16688C5 /* Pods-DollarRatesApp.debug.xcconfig */,
+				DE0B3A7392C2AC40A2F1E458 /* Pods-DollarRatesApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EE5A973269F72BC000448A8 /* DollarRatesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE5A988269F72BF000448A8 /* Build configuration list for PBXNativeTarget "DollarRatesApp" */;
+			buildPhases = (
+				2795372A105E98A62644CF22 /* [CP] Check Pods Manifest.lock */,
+				5EE5A970269F72BC000448A8 /* Sources */,
+				5EE5A971269F72BC000448A8 /* Frameworks */,
+				5EE5A972269F72BC000448A8 /* Resources */,
+				072C55469E4C84328E57BF05 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DollarRatesApp;
+			productName = DollarRatesApp;
+			productReference = 5EE5A974269F72BC000448A8 /* DollarRatesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EE5A96C269F72BC000448A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5EE5A973269F72BC000448A8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5EE5A96F269F72BC000448A8 /* Build configuration list for PBXProject "DollarRatesApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EE5A96B269F72BC000448A8;
+			productRefGroup = 5EE5A975269F72BC000448A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EE5A973269F72BC000448A8 /* DollarRatesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EE5A972269F72BC000448A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE5A984269F72BF000448A8 /* LaunchScreen.storyboard in Resources */,
+				5EE5A981269F72BF000448A8 /* Assets.xcassets in Resources */,
+				5EE5A97F269F72BC000448A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		072C55469E4C84328E57BF05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DollarRatesApp/Pods-DollarRatesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DollarRatesApp/Pods-DollarRatesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DollarRatesApp/Pods-DollarRatesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2795372A105E98A62644CF22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DollarRatesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EE5A970269F72BC000448A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE5A99B269F74BC000448A8 /* DateHelper.swift in Sources */,
+				5EE5A9B1269F95F2000448A8 /* RatesDecode.swift in Sources */,
+				5EE5A978269F72BC000448A8 /* AppDelegate.swift in Sources */,
+				5EE5A996269F740D000448A8 /* Dollar.swift in Sources */,
+				5EE5A97A269F72BC000448A8 /* SceneDelegate.swift in Sources */,
+				5EE5A9A0269F764D000448A8 /* ServerManager.swift in Sources */,
+				5EE5A9A8269F78FB000448A8 /* Requests.swift in Sources */,
+				5EE5A991269F736A000448A8 /* DollarRatesTableViewController.swift in Sources */,
+				5EE5A9AD269F7E4E000448A8 /* DollarDecode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EE5A97D269F72BC000448A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE5A97E269F72BC000448A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EE5A982269F72BF000448A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE5A983269F72BF000448A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EE5A986269F72BF000448A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EE5A987269F72BF000448A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EE5A989269F72BF000448A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E4F8CD073A55A4D16688C5 /* Pods-DollarRatesApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DollarRatesApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kseniaSal.DollarRatesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5EE5A98A269F72BF000448A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0B3A7392C2AC40A2F1E458 /* Pods-DollarRatesApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DollarRatesApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.kseniaSal.DollarRatesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EE5A96F269F72BC000448A8 /* Build configuration list for PBXProject "DollarRatesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE5A986269F72BF000448A8 /* Debug */,
+				5EE5A987269F72BF000448A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE5A988269F72BF000448A8 /* Build configuration list for PBXNativeTarget "DollarRatesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE5A989269F72BF000448A8 /* Debug */,
+				5EE5A98A269F72BF000448A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EE5A96C269F72BC000448A8 /* Project object */;
+}

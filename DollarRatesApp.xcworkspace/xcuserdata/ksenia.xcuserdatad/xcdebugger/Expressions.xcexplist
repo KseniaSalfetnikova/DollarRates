@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in DollarRatesTableViewController.checkCurrentRate():DollarRatesTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Float(dollar.rate)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Requests.currentDollarRate(completion:):Requests.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in DollarRatesTableViewController.editGlobalRate(_:):DollarRatesTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.globalRate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ServerManager.getRequest(additionalAddress:parameters:completion:):ServerManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data.data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,6 @@
+framework module Pods_DollarRatesApp {
+  umbrella header "Pods-DollarRatesApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
